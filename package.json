@@ -1,0 +1,25 @@
+{
+  "name": "mailinglistclient.local",
+  "version": "0.0.0",
+  "description": "SPA client with Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ektshowa/mailinglistclient.local.git"
+  },
+  "author": "Etienne",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ektshowa/mailinglistclient.local/issues"
+  },
+  "dependencies": {
+    "backbone": "~1.3.1",
+    "jquery": "~2.2.1"
+  },
+  "devDependencies": {
+    "canned": "~0.3.7"
+  }
+}

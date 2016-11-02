@@ -1,0 +1,11 @@
+[
+   {"id": 1, "roomNumber": 1, "roomCategory": "category 1","price": 50, "bedType":"simple", "description":"simple bed room", "selected": false, "hotelID":1, "hotelName": "Hotel One"},
+   {"id": 2, "roomNumber": 3, "roomCategory": "category 2", "price": 150, "bedType":"king", "description":"king bed room", "selected": false, "hotelID":1, "hotelName": "Hotel One"},
+   {"id": 3, "roomNumber": 5, "roomCategory": "category 3", "price": 100, "bedType":"double", "description":"double bed room", "selected": false, "hotelID":1, "hotelName": "Hotel One"},
+   {"id": 4, "roomNumber": 1, "roomCategory": "category 1","price": 50, "bedType":"simple", "description":"simple bed room", "selected": false, "hotelID":2, "hotelName": "Hotel Two"},
+   {"id": 5, "roomNumber": 3, "roomCategory": "category 2", "price": 150, "bedType":"king", "description":"king bed room", "selected": false, "hotelID":2, "hotelName": "Hotel Two"},
+   {"id": 6, "roomNumber": 5, "roomCategory": "category 3", "price": 100, "bedType":"double", "description":"double bed room", "selected": false, "hotelID":2, "hotelName": "Hotel Two"},
+   {"id": 7, "roomNumber": 1, "roomCategory": "category 1","price": 50, "bedType":"simple", "description":"simple bed room", "selected": false, "hotelID":3, "hotelName": "Hotel Three"},
+   {"id": 8, "roomNumber": 3, "roomCategory": "category 2", "price": 150, "bedType":"king", "description":"king bed room", "selected": false, "hotelID":3, "hotelName": "Hotel Three"},
+   {"id": 9, "roomNumber": 5, "roomCategory": "category 3", "price": 100, "bedType":"double", "description":"double bed room", "selected": false, "hotelID":3, "hotelName": "Hotel Three"}
+]

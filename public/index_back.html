@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Online Hotel Room Booking</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- scripts -->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>-->
+	
+	<script>
+	    /*
+		var Room = new ebooking.Room();
+				var data = ebooking.data;
+			   // var Rooms = new ebooking.Rooms(data);
+				var ebookingObject = {Room: Room, Rooms: Rooms};
+				$(document).ready(function() {
+					console.log(Backbone);	
+					return ebookingObject;
+																  //{rooms: rooms, RoomView: RoomView };
+				});*/
+		
+	</script> 
+	<script type="text/javascript">
+ 			/*jslint	
+ 			 * 	browser	: true, continue  : true,
+ 			 *  devel   : true, indent	  : 2,
+ 			 *  newcap  : true, maxerr    : 50,
+ 			 *  regexp  : true, nomen     : true,
+ 			 *  plusplus: true, sloppy    : true,
+ 			 *  vars    : true, white     : true
+ 			 */
+ 			/*global jQuery, Backbone*/
+ 		</script>
+</head>
+<body>
+	<div id="container">
+		
+	</div>
+	<!--<section id="rooms">
+		<article class="room selected">
+			<h1>Room Category 1</h1>
+		</article>
+		<article class="room">
+			<h1>Room category 2</h1>
+		</article>
+		<article class="room">
+			<h1>Room category 3</h1>
+		</article>
+	</section>
+	<nav id="controls">
+		<a href="#" class="previous" data-action="previous">Previous</a> |
+		<a href="#" class="next" data-action="next">Next</a>
+	</nav>-->
+	<!--<script src="js/jquery.js"></script>
+    <!--<script src="js/json2.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/backbone-min.js"></script>-->
+    <script type="text/x-handlebars-template" id="register-template">
+        <div class="overlay"></div>	
+        <div class="content">
+        	<span class="close">close</span>
+        	<section class="join">
+        		<h1>Register</h1>
+        		<div class="error"></div>
+        		<form>
+        			<label for="firstname">Firstname</label>
+        			<input type="text" name="firstname"/>
+        			<br>
+        			<label for="lastname">Lastname</label>
+        			<input type="text" name="lastname"/>
+        			<br>
+        			<label for="addressline1">Address</label>
+        			<input type="text" name="addressline1"/>
+        			<br>
+        			<label for="email">Email</label>
+        			<input type="text" name="email"/>
+        			<br>
+        			<label for="password">Password</label>
+        			<input type="password" name="password"/>
+        			<br>
+        			<input type="submit"></input>
+        		</form>
+        	</section>
+        </div>
+    </script>
+    <script type="text/x-handlebars-template" id="login-template">
+    	<div class="overlay"></div>
+    	<div class="content">
+    		<span class="close">close</span>
+    		<h2>Login</h2>
+    		<div class="error"></div>
+    		<form id="login">
+    			<label for="username">
+    				Username:
+    			</label>
+    			<input type="text" name="username" />
+    			<br>
+    			<label for="password">
+    				Password:
+    			</label>
+    			<input type="password" name="password"></input>
+    			<br>
+    			<input type="submit" />
+    		</form>
+    	</div>
+    </script>
+    <script type="text/template" id="room-item-template">
+    	<h1><%= hotelName %></h1>
+		<h1><%= roomCategory %><hr></h1><br>
+		<p><%= price %></p>
+	</script>
+	<script id="loginNavbar" type="text/x-handlebars-template">
+		<ul class="dropdown-menu">
+		{{#if session }}
+		    <li><a href="#" class="logout">Logout</a></li>
+		    <li><a href="#" class="update">Update Account</a></li>
+		{{else}}
+		    <li><a href="#" class="login">Login</a></li>
+		    <li><a href="#" class="register">Register</a></li>
+		{{/if}}
+		</ul>
+	</script>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <!--<script src="js/backbone.obscura/backbone.obscura.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.obscura/0.1.6/backbone.obscura.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+    <script src="js/EBooking/models/room.js"></script>
+    <script src="js/EBooking/models/user.js"></script>
+    <script src="js/EBooking/models/session.js"></script>
+	<script src="js/EBooking/collections/rooms.js"></script>
+	<script src="js/EBooking/views/room.js"></script>
+	<script src="js/EBooking/views/roomDetails.js"></script>
+	<script src="js/EBooking/views/choseRoom.js"></script>
+	<script src="js/EBooking/views/roomsList.js"></script>
+	<script src="js/EBooking/views/authenticateModal.js"></script>
+	<script src="js/EBooking/views/loginModal.js"></script>
+	<script src="js/EBooking/views/navbar.js"></script>
+	<script src="js/EBooking/views/registerModal.js"></script>
+	<script src="js/EBooking/views/controls.js"></script>
+	<script src="js/EBooking/views/layout.js"></script>
+	<script src="js/EBooking/routers/rooms.js"></script>
+	<script src="js/EBooking/main.js"></script>
+</body>
+</html>

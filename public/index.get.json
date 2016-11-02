@@ -1,0 +1,4 @@
+[
+   {"id": 1, "roomNumber": 1, "roomCategory": "category 1","price": 50, "bedType":"simple", "description":"simple bed room", "selected": false},
+   
+]
